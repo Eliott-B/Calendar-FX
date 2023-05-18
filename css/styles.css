@@ -1,0 +1,34 @@
+.root {
+    -fx-padding: 15;
+}
+
+.label {
+    -fx-text-fill: #000000;
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}
+
+#today {
+    -fx-text-fill: #dcb935;
+}
+
+#outMonth {
+    -fx-text-fill: grey;
+}
+
+#background {
+    -fx-background-color: white;
+}
+
+.toggle-button {
+    -fx-background-color: white;
+}
+
+.toggle-button:selected{
+    -fx-background-color: gainsboro;
+}
+
+.scroll-pane {
+    -fx-background: #e8e8e8;
+    -fx-border-color: #989898;
+}
